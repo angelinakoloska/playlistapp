@@ -1,5 +1,5 @@
 const clientId = ''; //Enter Spotify API client ID
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://playlistjam.netlify.app/';
 let accessToken;
 
 const Spotify = {
