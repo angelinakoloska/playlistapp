@@ -1,4 +1,4 @@
-const clientId = ''; //Enter Spotify API client ID
+const clientId =  process.env.REACT_APP_SPOTIFY_CLIENT_ID; //Enter Spotify API client ID
 const redirectUri = 'https://playlistjam.netlify.app/';
 let accessToken;
 
